@@ -9,3 +9,4 @@ for starship in starships["results"]:
         for pilot in starship["pilots"]:
             pilots = requests.get(pilot).json()
             print("  " + pilots["name"])
+# buttz
